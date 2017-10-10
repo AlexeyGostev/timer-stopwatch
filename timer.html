@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Таймер</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/960.css">
+    <link rel="stylesheet" href="./css/960_12_col.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="wrapper" class="container_12">
+        <div class ="container-buttons-increment grid_12">
+            <button class="increment button-secondary">+</button>
+            <button class="increment button-secondary">+</button>
+            <button class="increment button-secondary">+</button>
+        </div>
+        <div class="timer clock-container grid_12">
+            <span class="clock">00:00:00</span>
+        </div>
+        <div class ="container-buttons-decrement grid_12">
+            <button class="decrement button-secondary">-</button>
+            <button class="decrement button-secondary">-</button>
+            <button class="decrement button-secondary">-</button>
+        </div>
+        <div class="container-buttons-menu">
+            <div class="container-start grid_12">
+                <button class="start button-primary">Запуск</button>
+            </div>
+            <div class="container-pause grid_6 invisible">
+                <button class="pause button-primary">Пауза</button>
+            </div>
+            <div class="container-reset grid_6 invisible">
+                <button class="reset button-primary">Сброс</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/timer.js"></script>
+</body>
+</html>
