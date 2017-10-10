@@ -1,6 +1,16 @@
+
+body {
+    background: #64bb72;
+}
+
 .clock-container {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.timer.clock-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .clock {
@@ -19,4 +29,31 @@
 
 .results li {
     font-size: 40px;
+}
+
+.invisible {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+
+.increment.button-secondary {
+    height: 50px;
+    width: 5%;
+    margin: 0 14.0%;
+}
+
+.decrement.button-secondary {
+    height: 50px;
+    width: 5%;
+    margin: 0 14.0%;
+}
+
+.container-buttons-increment {
+    margin-top: 50px;
+}
+
+.container-buttons-decrement {
+    margin-bottom: 50px;
 }
