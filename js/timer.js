@@ -76,6 +76,7 @@ var timer = new Timer();
 var si;
 
 function writeTick() {
+    if (spanClock.innerHTML === '00:00:00') return;
     buttonStart.removeEventListener('click', writeTick);
     containerStart.classList.add('invisible');
     containerButtonsIncrement.classList.add('invisible');
